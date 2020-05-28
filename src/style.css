@@ -1,0 +1,24 @@
+
+/*
+
+https://webdesign.tutsplus.com/pt/tutorials/all-you-need-to-know-about-the-html5-data-attribute--webdesign-9642
+https://fonts.adobe.com/
+https://www.fontsquirrel.com/
+
+*/
+
+.imagem-carrossel-um {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
+.imagem-carrossel-dois {
+    object-fit: cover;
+    /*object-position: 0 80%;*/
+    height: 400px;
+}
+
+.font-titulo {
+    font-family: 'Pacifico', cursive;
+}
