@@ -4,8 +4,13 @@
 https://webdesign.tutsplus.com/pt/tutorials/all-you-need-to-know-about-the-html5-data-attribute--webdesign-9642
 https://fonts.adobe.com/
 https://www.fontsquirrel.com/
+https://css-tricks.com/when-using-important-is-the-right-choice/
 
 */
+
+.card-largura {
+    max-width: 18rem;
+}
 
 .imagem-carrossel-um {
     object-fit: cover;
@@ -21,4 +26,23 @@ https://www.fontsquirrel.com/
 
 .font-titulo {
     font-family: 'Pacifico', cursive;
+}
+
+.texto-cor-especial {
+    color: darkred!important; /* sobreescreve a semantica do css bootstrap*/
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    /* object-position: 0 80%; */ 
+    height: 200px;
 }
